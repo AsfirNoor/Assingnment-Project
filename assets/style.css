@@ -545,21 +545,17 @@
 .main_footer {
     background: #070211;
     width: 100%;
-    height: 600px;
+    height: 562px;
+    padding-top: 50px;
+    padding-left: 0px;
 }
 
 .top_content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-.social_info a {
-    text-decoration: none;
-}
-
-.social_info {
-    margin-top: 15px;
-}
 
 .building_roosevelt {
     color: #FFF;
@@ -567,6 +563,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
+    margin-bottom: 0px;
 }
 
 .beach_gardens {
@@ -575,32 +572,79 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-}
-
-.social_info {
-    display: flex;
-    flex-direction: column;
-}
-
-.tel_icon {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #FFF;
-}
-
-.web_icon {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #FFF;
+    margin-top: 34px;
 }
 
 .telephone {
-    color: #FFF;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 0px;
 }
 
-.hr {
-    width: 1320px;
-    height: 1px;
+.website {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.web_site,
+.number {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.hr_one {
+    width: 1510px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 40px;
+    margin-left: 457px;
+}
+
+
+.social_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.hr_two {
+    width: 1510px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 40px;
+    margin-left: 457px;
+}
+
+
+.footer_reserved {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 455px;
+    margin-right: 445px;
+}
+
+.all_reserved {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.unsubscribe{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
